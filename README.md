@@ -45,6 +45,13 @@ B : pion-f2 g3-capture;
 ```
 Enfin, toute partie doit se terminer par le mot-clé "Endgame" suivi d'un ';'
 
+Le dernier coup joué doit avoir soit la mention 'checkmate', soit la mention 'nul', et toute partie doit se terminer par le mot-clé "Endgame" suivi d'un ';'.
+```
+B : cavalier d3;
+N : pion-e6 e8;
+B : pion-f2 g3-capture-checkmate;
+Endgame;
+```
 Des exemples de parties sont disponibles dans le dossier 'games/'
 
 ## Utilisation
