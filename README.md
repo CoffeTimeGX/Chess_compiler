@@ -69,3 +69,4 @@ Ne pas oublier d'installer les modules nécessaires avec la commande suivante :
 ```
 pip install -r requirements.txt
 ```
+Lorsque la partie est lancée, l'utilisateur peut avancer dans la partie avec la souris, la touche "espace" ou la touche "entrer".
