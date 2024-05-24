@@ -1,0 +1,8 @@
+B: pion-e2     --> e4;
+N: pion-e7     --> e5;
+B: reine-d1    --> h5;
+N: pion-d7     --> d6;
+B: fou-f1      --> c4;
+N: cavalier-b8 --> c6;
+B: reine-h5    --> f7-capture-checkmate;
+endgame;

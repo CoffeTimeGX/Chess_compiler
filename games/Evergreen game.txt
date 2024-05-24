@@ -1,1 +1,53 @@
+//This is one of the most beautiful games, played by Adolph Anderson against Jean Dufresne, one of his students, in 1852.
+B: pion-e2 e4;
+N: pion-e7 e5;
+B: cavalier-g1 f3;
+N: cavalier-b8 c6;  //Italia
+B: fou-f1 c4;
+N: fou-f8 c5;
+B: pion-b2 b4; //Evan's opening
+N: fou-c5 b4-capture;
+B: pion-c2 c3;
+N: fou-b4 a5;
+B: pion-d2 d4;
+N: pion-e5 d4-capture;
+B: roi-e1 g1-petit_roque;
+N: pion-d4 d3;  //Dufresne n'a pas joué pion-d4 c3-capture connaissant son maître, il a su que cela pouvait être dangereux pour les noirs
+B: reine-d1 b3; //Adolph a maintenant une pression sur f7 avec sa reine et son fou, ce qui oblige Jean à défendre et à préparer potentiellement un roque pour protéger son roi
+N: reine-d8 f6 ;
+B: pion-e4 e5; //Attaque sur la reine qui empêche Anderson de bouger son cavalier pour effectuer son roque
+N: reine-f6 g6;
+B: tour-f1 e1;
+N: cavalier-g8 e7;
+B: fou-c1 a3;
+N: pion-b7 b5;
+B: reine-b3 b5-capture;
+N: tour-a8 b8;
+B: reine-b5 a4;
+N: fou-a5 b6; //La meilleure chose aurait été de faire un roque, mais les coups communs étant ceux-là à cette époque, il joua ainsi
+B: cavalier-b1 d2;
+N: fou-c8 b7;
+B: cavalier-d2 e4;
+N: reine-g6 f5;
+B: fou-c4 d3-capture;
+N: reine-f5 h5;
+B: cavalier-e4 f6;  //Anderson menace la reine et le roi à la foi à ce moment
+N: pion-g7 f6-capture; //Dufresne est obligé de capturer le cavalier
+B: pion-e5 f6-capture;
+N: tour-h8 g8;     //Meilleur coup qui puisse être joué, la position est critique pour le roi d'Adolph, 
+                   //si la reine de Jean capture le cavalier restant d'Adolph en f3, le pion en g2 ne pourra
+                   //pas capturer la reine,= car le roi sera à découvert, il est alors très difficile de trouver une parade à ce coup
 
+B: tour-a1 d1;     //Adolph répond avec un coup spectaculaire, à première vue anodin mais aux conséquences dévastatrices.
+N: reine-h5 f3-capture;    //Jean ne comprends pas ce coup est décide de capturer le cavalier, ce qui mettra Adolph dans une position d'échec et mat au prochain coup s'il ne bouge pas son roi
+B: tour-e1 e7-echec;     //Adolph pare l'attaque, le meilleur mouvement pour les noirs est roi-e8 d8, mais Jean décide de capturer la tour avec le prochain coup
+N: cavalier-c6 e7;
+B: reine-a4 d7-echec;
+N: roi-e8 d7-capture;  //Jean tombe dans le piège et capture la reine avec son roi;
+B: fou-d3 f5-echec;    //Adolph attaque Jean avec son fou, mais aussi la tour qu'il avait placé auparavant en d1 de manière si anodine (double check)
+                       //Les seuls carrés disponible pour le roi noir sont c6 et e8 à présent
+N: roi-d7 e8;          //Adolph choisi donc de jouer ce coup
+B: fou-f5 d7-echec;    //Le roi n'a plus que la case f8 où se déplacer
+N: roi-e8 f8;
+B: fou-a3 e7-capture-checkmate; //La partie se termine donc avec cette paire de fou qui a réussi à venir à bout du roi
+endgame;

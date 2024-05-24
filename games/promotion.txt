@@ -1,0 +1,13 @@
+B: pion-g2 g4;
+N: pion-b7 b5;
+B: pion-g4 g5;
+N: pion-b5 b4;
+B: pion-g5 g6;
+N: pion-b4 b3;
+B: pion-g6 h7-capture;
+N: pion-b3 a2-capture;
+B: pion-e2 e4;
+N: pion-a2 b1-p_reine;
+B: pion-h7 g8-p_tour;
+N: pion-e7 e5-nul;
+endgame;
