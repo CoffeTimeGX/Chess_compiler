@@ -7,7 +7,7 @@ Ce projet vise à appliquer les divers procédés de compilation à un langage d
 
 Pour rappel, voici l'organisation du plateau avec l'appellation des colones(lettres) et des rangs(chiffres) : 
 
-![alt text](chess_board.png)
+![alt text](chess_images/chess_board.png)
 
 Les coups sont divisés en deux parties distinctes, séparées par un espace au minimum.
 Le premier sert à identifier la pièce jouée, tandis que la deuxième désigne le coup effectué avec la case visée et, s'il y en a, l'action/les actions de ce coup, séparées par des tirets.
