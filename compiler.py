@@ -3,7 +3,7 @@ from paarser import Parser
 from abstract_syntax import AstNode
 from rules import LEXEM_RULES   
 from visitor import PrettyPrinter
-from chess.chess_main import *
+from chess_main import *
 
 class Compiler():
     def __init__(self):
